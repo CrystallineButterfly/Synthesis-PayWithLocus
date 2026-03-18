@@ -1,6 +1,6 @@
 # Compute Wallet Rail
 
-- **Repo:** https://github.com/CrystallineButterfly/Synthesis-PayWithLocus
+- **Repo:** TODO_GITHUB_URL/Synthesis-PayWithLocus
 - **Primary track:** PayWithLocus
 - **Overlap targets:** Bankr Gateway, Slice, Celo, ERC-8004 Receipts, Lido stETH Treasury, ENS
 - **Primary contract:** LocusSpendController
@@ -18,10 +18,10 @@ A controlled Base payment rail that creates bounded subaccounts for compute, com
   "status": "verified",
   "project_name": "Compute Wallet Rail",
   "track": "PayWithLocus",
-  "plan_id": "0x9def23337f0812fd177c6228eb05ece273406206346edd2aa274dd62c445a696",
-  "simulation_hash": "0xdb94932b1ca1b406bad104489c5d745a936be137ed1a43a4afd7eb59fc22be63",
+  "plan_id": "0xd9cc17520b684c7ca34706fa4f0eed447ff9556a9a5cd5c5ea6764c5d36fc9c5",
+  "simulation_hash": "0x6dc756e6710dab8605cc749525e341d367c7e2906de307d96ff345c5c55ea673",
   "execution_status": "awaiting_credentials",
   "tx_ids": [],
-  "created_at": "2026-03-18T21:44:11+00:00"
+  "created_at": "2026-03-18T23:01:28+00:00"
 }
 ```
