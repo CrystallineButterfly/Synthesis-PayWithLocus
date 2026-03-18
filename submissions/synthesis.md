@@ -1,6 +1,6 @@
 # Compute Wallet Rail
 
-- **Repo:** TODO_GITHUB_URL/Synthesis-PayWithLocus
+- **Repo:** https://github.com/CrystallineButterfly/Synthesis-PayWithLocus
 - **Primary track:** PayWithLocus
 - **Overlap targets:** Bankr Gateway, Slice, Celo, ERC-8004 Receipts, Lido stETH Treasury, ENS
 - **Primary contract:** LocusSpendController
