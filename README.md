@@ -5,7 +5,7 @@
 - **Category:** payments
 - **Primary contract:** `LocusSpendController`
 - **Primary module:** `locus_payments`
-- **Submission status:** implementation ready, waiting for credentials and TxIDs.
+- **Submission status:** audited and offline-demo ready; optional live partner credentials unlock network execution.
 
 ## What this repo does
 
@@ -67,6 +67,31 @@ flowchart TD
 3. Persist a dry-run artifact before any live execution.
 4. Enforce onchain policy through the guarded contract wrapper.
 5. Verify outputs, update receipts, and render submission material.
+
+## Current readiness
+
+- **Latest verification:** `verified` at `2026-03-19T03:52:18+00:00`
+- **Execution mode:** `offline_prepared`
+- **Offline-prepared partners:** Celo (prepared_contract_call), ERC-8004 Receipts (prepared_contract_call), Lido (prepared_contract_call), ENS (prepared_contract_call)
+- **Live credential blockers:** PayWithLocus, Bankr Gateway, Slice
+- **Audit docs:** `docs/audit.md`, `docs/live_readiness.md`
+
+## Most sensitive actions
+
+- `bankr_gateway_compute_route` (Bankr Gateway, high)
+
+## Live blocker details
+
+- **PayWithLocus** — LOCUS_API_KEY, LOCUS_PAYMENT_URL — https://docs.locus.finance/
+- **Bankr Gateway** — BANKR_API_KEY, BANKR_CHAT_COMPLETIONS_URL, BANKR_MODEL — https://bankr.bot/
+- **Slice** — SLICE_API_KEY, SLICE_HOOK_URL — https://docs.slice.so/
+
+## Latest evidence artifacts
+
+- `artifacts/onchain_intents/celo_payment_settle.json`
+- `artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json`
+- `artifacts/onchain_intents/lido_yield_route.json`
+- `artifacts/onchain_intents/ens_ens_publish.json`
 
 ## Security controls
 
