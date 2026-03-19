@@ -43,6 +43,14 @@ when live network credentials are absent. Network-only partners still report mis
 `cast send` output is now parsed for `transactionHash` explicitly before falling back to the
 raw stdout payload.
 
+## Track-specific trust boundaries
+
+- primary wrapper contract: `LocusSpendController`
+- live-only partners: PayWithLocus, Bankr Gateway, Slice
+- offline-prepared partners: Celo (prepared_contract_call), ERC-8004 Receipts (prepared_contract_call), Lido (prepared_contract_call), ENS (prepared_contract_call)
+- highest-sensitivity actions: bankr_gateway_compute_route
+- latest verification artifact: `artifacts/verification/0x579d8c8a070fbbdbd829a9b41e66d613e3a5b9a682d9be9ce6a57d8c920d9200.json`
+
 ## Current posture
 
 ### Good
