@@ -7,5 +7,575 @@
     "details": {
       "status": "ready_for_credentials"
     }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:19+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "payout_targets",
+          "description": "Recipient identities and allowlisted routes.",
+          "score": 95
+        },
+        {
+          "name": "budget_state",
+          "description": "Treasury headroom and per-transfer caps.",
+          "score": 90
+        },
+        {
+          "name": "payment_route",
+          "description": "Stablecoin rail and settlement preferences.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transfers, confirmations, and reporting artifacts.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:19+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x01133f13174f459f4abd805f01c134e0aa582fdc1e70fe993dafd78778af08d7"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:19+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x1e8bff7cb80785d4af4ab4619f995cff9ccfa9e284e0e972b95ba693cd535c3c"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:19+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "CELO_RPC_URL",
+        "ENS_NAME",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "RPC_URL",
+        "SLICE_API_KEY",
+        "SLICE_HOOK_URL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:19+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Compute Wallet Rail",
+      "track": "PayWithLocus",
+      "plan_id": "0x01133f13174f459f4abd805f01c134e0aa582fdc1e70fe993dafd78778af08d7",
+      "simulation_hash": "0x1e8bff7cb80785d4af4ab4619f995cff9ccfa9e284e0e972b95ba693cd535c3c",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:19+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:19+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "payout_targets",
+          "description": "Recipient identities and allowlisted routes.",
+          "score": 95
+        },
+        {
+          "name": "budget_state",
+          "description": "Treasury headroom and per-transfer caps.",
+          "score": 90
+        },
+        {
+          "name": "payment_route",
+          "description": "Stablecoin rail and settlement preferences.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transfers, confirmations, and reporting artifacts.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:19+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x01133f13174f459f4abd805f01c134e0aa582fdc1e70fe993dafd78778af08d7"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:19+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x1e8bff7cb80785d4af4ab4619f995cff9ccfa9e284e0e972b95ba693cd535c3c"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:19+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "CELO_RPC_URL",
+        "ENS_NAME",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "RPC_URL",
+        "SLICE_API_KEY",
+        "SLICE_HOOK_URL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:19+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Compute Wallet Rail",
+      "track": "PayWithLocus",
+      "plan_id": "0x01133f13174f459f4abd805f01c134e0aa582fdc1e70fe993dafd78778af08d7",
+      "simulation_hash": "0x1e8bff7cb80785d4af4ab4619f995cff9ccfa9e284e0e972b95ba693cd535c3c",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:19+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:39:23.678178+00:00",
+    "stage": "security_review",
+    "actor": "audit_pass",
+    "message": "Completed the shared hardening and offline-artifact audit pass.",
+    "details": {
+      "status": "audited_ready_pending_live_credentials",
+      "primary_contract": "LocusSpendController.sol"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:03+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "payout_targets",
+          "description": "Recipient identities and allowlisted routes.",
+          "score": 95
+        },
+        {
+          "name": "budget_state",
+          "description": "Treasury headroom and per-transfer caps.",
+          "score": 90
+        },
+        {
+          "name": "payment_route",
+          "description": "Stablecoin rail and settlement preferences.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transfers, confirmations, and reporting artifacts.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:03+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xaaa9c6e18320ad9d2799a6cf8ccdb7ae494d96134880d72bb170a39534c48c8a",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:03+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xbe3dbf31b7de2410f241edf1bb55914967253a8c9f2eece9c8bbafd065609149"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:03+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "SLICE_API_KEY",
+        "SLICE_HOOK_URL"
+      ],
+      "artifact_count": 4
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:03+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Compute Wallet Rail",
+      "track": "PayWithLocus",
+      "plan_id": "0xaaa9c6e18320ad9d2799a6cf8ccdb7ae494d96134880d72bb170a39534c48c8a",
+      "simulation_hash": "0xbe3dbf31b7de2410f241edf1bb55914967253a8c9f2eece9c8bbafd065609149",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "PayWithLocus": "awaiting_credentials",
+        "Bankr Gateway": "awaiting_credentials",
+        "Slice": "awaiting_credentials",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Lido": "prepared_contract_call",
+        "ENS": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:49:03+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:48+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "payout_targets",
+          "description": "Recipient identities and allowlisted routes.",
+          "score": 95
+        },
+        {
+          "name": "budget_state",
+          "description": "Treasury headroom and per-transfer caps.",
+          "score": 90
+        },
+        {
+          "name": "payment_route",
+          "description": "Stablecoin rail and settlement preferences.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transfers, confirmations, and reporting artifacts.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:48+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xc794378f661d5c0a101bde8db3daa9b2b23151e3a498291eaf5d7c0a8283e784",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:48+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xf5470e5827cb8347db75749c29e93c2c7d711a686f5150a6dcead2808557f7d1"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:48+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "SLICE_API_KEY",
+        "SLICE_HOOK_URL"
+      ],
+      "artifact_count": 4
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:48+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Compute Wallet Rail",
+      "track": "PayWithLocus",
+      "plan_id": "0xc794378f661d5c0a101bde8db3daa9b2b23151e3a498291eaf5d7c0a8283e784",
+      "simulation_hash": "0xf5470e5827cb8347db75749c29e93c2c7d711a686f5150a6dcead2808557f7d1",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "PayWithLocus": "awaiting_credentials",
+        "Bankr Gateway": "awaiting_credentials",
+        "Slice": "awaiting_credentials",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Lido": "prepared_contract_call",
+        "ENS": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:50:48+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "payout_targets",
+          "description": "Recipient identities and allowlisted routes.",
+          "score": 95
+        },
+        {
+          "name": "budget_state",
+          "description": "Treasury headroom and per-transfer caps.",
+          "score": 90
+        },
+        {
+          "name": "payment_route",
+          "description": "Stablecoin rail and settlement preferences.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transfers, confirmations, and reporting artifacts.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xa3843d6f507266f2ab54a1b69cc506b9026fff6564295bf0a19ed17119770a59",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xa4463eada99971324f4bca5f13101667bc88ec087ed0e2e037d68c32b808a86b"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "SLICE_API_KEY",
+        "SLICE_HOOK_URL"
+      ],
+      "artifact_count": 4
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Compute Wallet Rail",
+      "track": "PayWithLocus",
+      "plan_id": "0xa3843d6f507266f2ab54a1b69cc506b9026fff6564295bf0a19ed17119770a59",
+      "simulation_hash": "0xa4463eada99971324f4bca5f13101667bc88ec087ed0e2e037d68c32b808a86b",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "PayWithLocus": "awaiting_credentials",
+        "Bankr Gateway": "awaiting_credentials",
+        "Slice": "awaiting_credentials",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Lido": "prepared_contract_call",
+        "ENS": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:51:48+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:18+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "payout_targets",
+          "description": "Recipient identities and allowlisted routes.",
+          "score": 95
+        },
+        {
+          "name": "budget_state",
+          "description": "Treasury headroom and per-transfer caps.",
+          "score": 90
+        },
+        {
+          "name": "payment_route",
+          "description": "Stablecoin rail and settlement preferences.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Transfers, confirmations, and reporting artifacts.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:18+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x579d8c8a070fbbdbd829a9b41e66d613e3a5b9a682d9be9ce6a57d8c920d9200",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:18+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xa5b5bb379d2c7756b0cee0a534e4b9226232f46898a9a71b042e9c2b18356308"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:18+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "SLICE_API_KEY",
+        "SLICE_HOOK_URL"
+      ],
+      "artifact_count": 4
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:18+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Compute Wallet Rail",
+      "track": "PayWithLocus",
+      "plan_id": "0x579d8c8a070fbbdbd829a9b41e66d613e3a5b9a682d9be9ce6a57d8c920d9200",
+      "simulation_hash": "0xa5b5bb379d2c7756b0cee0a534e4b9226232f46898a9a71b042e9c2b18356308",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "PayWithLocus": "awaiting_credentials",
+        "Bankr Gateway": "awaiting_credentials",
+        "Slice": "awaiting_credentials",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Lido": "prepared_contract_call",
+        "ENS": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:52:18+00:00"
+    }
   }
 ]
